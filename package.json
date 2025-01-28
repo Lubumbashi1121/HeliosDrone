@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "private": true,
+  "homepage": "https://lubumbashi1121.github.io/drone-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
