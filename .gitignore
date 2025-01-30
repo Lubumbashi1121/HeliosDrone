@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # Dependency directories
 node_modules
+dist  # <-- Ignore the build output (Vite generates this)
 
 # Environment variables
 .env
@@ -16,7 +17,7 @@ node_modules
 .env.*.local
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -25,3 +26,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# GitHub Pages (optional)
+.github/
