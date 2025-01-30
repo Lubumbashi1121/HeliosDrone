@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // Modern React 18 rendering
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/drone-website">
+  <BrowserRouter basename="/drone-website/">
     <App />
   </BrowserRouter>
 );
