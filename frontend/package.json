@@ -1,0 +1,48 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "@cloudinary/react": "1.14.1",
+    "@cloudinary/url-gen": "1.21.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "aos": "2.3.4",
+    "axios": "1.8.4",
+    "bootstrap": "5.3.3",
+    "lg-thumbnail": "1.2.1",
+    "lightgallery": "2.8.3",
+    "magnific-popup": "1.2.0",
+    "react": "19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "19.0.0",
+    "react-router-dom": "7.3.0",
+    "react-scroll": "1.9.3",
+    "react-transition-group": "4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.22.0",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.3.4",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react": "7.37.4",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.19",
+    "nodemon": "3.1.9",
+    "vite": "6.2.1"
+  },
+  "main": "src/main.jsx",
+  "repository": "https://github.com/Lubumbashi1121/drone-website.git",
+  "author": "Lubumbashi1121 <nagyakos97@gmail.com>",
+  "license": "MIT"
+}
